@@ -1,0 +1,27 @@
+{
+  "name": "The Next Freelancer",
+  "version": "1.0.0",
+  "authors": [
+    "Chanx Singha <chanx.designs@gmail.com>"
+  ],
+  "description": "The Next Freelancer Official Source",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "The",
+    "Next",
+    "Freelancer"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.6"
+  }
+}
