@@ -1,0 +1,5 @@
+## Ignored Files & Folders
+node_modules
+bower_components
+.sass-cache
+.idea
