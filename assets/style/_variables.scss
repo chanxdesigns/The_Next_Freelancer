@@ -1,0 +1,14 @@
+/****-----------------------------------
+  Project Wide Variables
+  -------------------------------------**/
+
+$default-color: #27ae60;
+$default-link-color: lighten($default-color,5%);
+$default-hover-color: lighten($default-color,5%);
+$default-active-color: darken($default-color, 5%);
+
+
+// Navbar Variables
+
+$default-navbar-link-color: lighten(#444,5%);
+$default-navbar-link-hover: $default-link-color;

@@ -8,3 +8,46 @@
 
 
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "variables";
+@import "mixins";
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+nav {
+  padding: 0;
+}
+
+.header {
+  background: transparent;
+  //height: 80px;
+  border-bottom: 1px solid lighten(#EEE,2%);
+  .navbar {
+    padding: 20px 0;
+    a {
+      font-family: "Open Sans",sans-serif;
+      font-weight: 700;
+      @include fontSize(1.2);
+      color: $default-navbar-link-color;
+      margin-right: 20px;
+      &:hover {
+        color: $default-navbar-link-hover;
+      }
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+.content-main {
+  background: $default-color;
+  height: 500px;
+  color: #fff;
+  margin: 0;
+}
